@@ -1,0 +1,16 @@
+#externo{
+    color: rgb(243, 243, 2);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20pt;
+    background-color: green;
+    font-weight: 900;
+}
+
+body{
+    background-color: gray;
+    padding: 0;
+    height: 1000px;
+    align-items: center;
+    margin-top: 25vh;
+}
