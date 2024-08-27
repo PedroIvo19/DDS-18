@@ -1,0 +1,46 @@
+#vermelho{
+    background-color: rgb(236, 21, 21);
+    color: white;
+}
+
+#amarelo{
+    background-color: rgb(170, 211, 22);
+    color: white;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.rosa{
+    background-color: rgb(216, 89, 184);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#primeira-caixa{
+    margin: 25px 10px;
+    border-radius: 10px;
+    background-color: silver;
+
+}
+
+#segunda-caixa{
+    margin: 25px 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: gold;  
+}
+
+#terceira-caixa{
+    margin: 25px 10px;
+    border-radius: 10px;
+    background-color: rgba(168, 9, 9, 0.801);
+    
+}

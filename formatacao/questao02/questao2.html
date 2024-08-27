@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 02</title>
+    <style>
+       
+        body{
+            background-color: rgb(32, 133, 192);
+        }
+
+        .background-azul-claro {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .paragrafo-verde-claro {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .background-imagem-repetida-fixa {
+            background-image: url('https://s1.static.brasilescola.uol.com.br/be/2020/06/pintura-caravagio.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            height: 200px;
+            margin: 20px;
+            color:  rgb(4, 207, 4);
+            font-size: 15pt;
+        }
+
+        .background-imagem-repetida-vertical {
+            background-image: url('https://static.todamateria.com.br/upload/ba/rr/barroco-og.jpg');
+            background-repeat: repeat-y;
+            height: 200px;
+            margin: 20px;
+            color: rgb(6, 24, 6);
+            font-size: 15pt;
+        }
+
+        .background-imagem-nao-repetida {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Alexandre_Cabanel_-_Fallen_Angel.jpg/640px-Alexandre_Cabanel_-_Fallen_Angel.jpg');
+            background-repeat: no-repeat;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .background-imagem-centralizada {
+            background-image: url('https://lh3.googleusercontent.com/ci/AL18g_Qs9OfxtwBXSf67MQnshKTD-OU5-2L0XTIKEQDHNhlZu0DJl_iVJ829K5aIHCrdDH9Ovfq9UQ=s1200');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .background-amarelo-imagem {
+            background-color: yellow;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhKDvh5NPzH9vwMUXbLvIzr4Qc6Q6rX6wZw&s');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll;
+            height: 200px;
+            margin: 20px;
+            color: rgb(20, 146, 20);
+        }
+    </style>
+</head>
+<body>
+  
+    <p class="paragrafo-verde-claro">Parágrafo com fundo verde claro</p>
+    
+    <div class="background-imagem-repetida-fixa">
+        Esta div tem uma imagem de fundo que se repete e não acompanha o deslocamento da página.
+    </div>
+
+    <div class="background-imagem-repetida-vertical">
+        Esta div tem uma imagem de fundo que se repete verticalmente.
+    </div>
+
+    <div class="background-imagem-nao-repetida">
+        Esta div tem uma imagem de fundo que não se repete.
+    </div>
+
+    <div class="background-imagem-centralizada">
+        Esta div tem uma imagem de fundo que não se repete e está centralizada.
+    </div>
+
+    <div class="background-amarelo-imagem">
+        Esta div tem um fundo amarelo com uma imagem de fundo, que não se repete, está centralizada e acompanha o deslocamento da página.
+    </div>
+</body>
+</html>

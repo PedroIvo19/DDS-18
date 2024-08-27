@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+    height: 100%;
+}
+
+  #tudo{
+    background-color: rgb(22, 179, 74);
+    padding: 5px;
+    display: inline-block;
+    display: flex;
+}
+
+
+.quad{
+    height: 200px;
+    width: 200px;
+    margin: 10px 5px;
+    
+}
+
+#quad1{
+background-color: red;
+flex-shrink: 1;
+
+}
+
+#quad2{
+background-color: aqua;    
+}
+
+#quad3{
+background-color: black;
+}
+
+#container {
+    
+    padding: 5px;
+    background-color: rgb(42, 119, 68);
+    padding: 15px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
