@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Automação</title>
+    <link href="automacao.css" rel="stylesheet">
+    <link rel="icon" type="imagem/jpg" href="senaiIcon.webp">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index.html" class="logo">
+        <img src="SenaiLogoBranco.d0fd9b85.svg">
+        </a>
+        <nav class="navbar" id="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="Curso.html">Cursos</a>
+        <a href="Historia.html">Sobre</a>
+        <a href="Formulario.html">Cadastre-se</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          &#9776; <!-- Ícone de hambúrguer -->
+      </div>
+    </header>
+
+
+    <script>
+        document.getElementById("hamburger").onclick = function() {
+            var navbar = document.getElementById("navbar");
+            navbar.classList.toggle("active");
+        }
+    </script>
+<script src="script.js"></script>
+
+    <div class="course-details">
+        <h2>Sobre o curso de Automação Industrial</h2>
+        <p>Aprenda a utilizar máquinas eletromecânicas, softwares e equipamentos específicos para automatizar processos industriais no curso de Automação Industrial da Estácio.</p>
+        
+        <div class="course-feature">
+            <div class="icon"></div>
+            <p><strong>Otimize a performance industrial:</strong> Com os conhecimentos em Automação Industrial você será capaz de implementar projetos que aumentem a autonomia dos processos de fabricação, reduzindo ao máximo o esforço humano.</p>
+        </div>
+        
+        <div class="course-feature">
+            <div class="icon"></div>
+            <p><strong>Atue com visão integrada:</strong> Durante o tecnólogo em Automação Industrial você entenderá como integrar eletrônica, mecânica, elétrica, informática e telecomunicações, desenvolvendo visão sistêmica no ambiente industrial.</p>
+        </div>
+        
+        <div class="course-feature">
+            <div class="icon"></div>
+            <p><strong>Prepare-se para uma atuação conectada às demandas do mercado:</strong> O tecnólogo em Automação Industrial da Estácio está alinhado às novas demandas da Indústria 4.0. Prepare-se para os novos desafios, como a “internet das coisas”, robótica e a automação domiciliar.</p>
+        </div>
+    </div>
+        <!-- Adiciona a imagem abaixo dos tópicos -->
+    <div class="course-image">
+        <img src="possessed-photography-U3sOwViXhkY-unsplash.jpg" alt="Descrição da imagem">
+    </div>
+
+    <!-- Adiciona o botão abaixo da imagem -->
+    <div class="course-button">
+        <a href="pagina-alvo.html" class="btn">Saiba Mais</a>
+    </div>
+
+    <br>
+
+</body>
+</html>

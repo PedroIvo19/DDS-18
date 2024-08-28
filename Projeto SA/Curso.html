@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI Cursos</title>
+    <link href="curso.css" rel="stylesheet">
+    <link rel="icon" type="imagem/jpg" href="senaiIcon.webp">
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+        <img src="SenaiLogoBranco.d0fd9b85.svg">
+        </a>
+        <nav class="navbar" id="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="Curso.html">Cursos</a>
+        <a href="Historia.html">Sobre</a>
+        <a href="Formulario.html">Cadastre-se</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          &#9776; <!-- Ícone de hambúrguer -->
+      </div>
+    </header>
+
+    <script>
+      document.getElementById("hamburger").onclick = function() {
+          var navbar = document.getElementById("navbar");
+          navbar.classList.toggle("active");
+      }
+  </script>
+
+
+
+
+    <main style="margin-top: 100px;">
+
+        <div class="card-container">
+          <div class="card">
+          <img src="homa-appliances-4rym6Ltlq-E-unsplash.jpg">
+          <div class="card-content">
+            <h3>Automação</h3>
+            <p>Automação é o uso de tecnologias para realizar tarefas de forma automática, sem intervenção humana, aumentando a eficiência, reduzindo erros e economizando tempo. Ela pode ser aplicada em diversos setores, como na indústria, TI, e serviços, para otimizar processos e melhorar a produtividade.</p>
+            <a href="automacao.html" class="btn">R$ 300,00</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="pickawood-6tAIO3pxde4-unsplash.jpg">
+          <div class="card-content">
+            <h3>Logística</h3>
+            <p>Logística envolve o planejamento, execução e controle do fluxo de mercadorias, serviços e informações desde o ponto de origem até o destino final. Seu objetivo é garantir que os produtos sejam entregues de maneira eficiente, no tempo certo, e ao menor custo possível.</p>
+            <a href="Formulario.html" class="btn">R$ 260,00</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg">
+          <div class="card-content">
+            <h3>Desenvolvimento de Sistemas</h3>
+            <p>Desenvolvimento de sistemas é o processo de criação, implementação e manutenção de software que atende a necessidades específicas de usuários ou empresas. Envolve a análise de requisitos, design, programação, testes e implantação de aplicações que automatizam tarefas, melhoram processos e solucionam problemas.
+            </p>
+            <a href="Formulario.html" class="btn">R$ 295,00</a>
+          </div>
+        </div>
+    
+      </main>
+
+      <script src="script.js"></script>
+</body>
+</html>
