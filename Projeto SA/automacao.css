@@ -54,7 +54,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(to right, #2731b3, #2c7e8f); /* Gradiente de azul escuro para azul claro */
+  background: linear-gradient(to right, #2731b3, #2c7e8f);
 }
 
 .logo {
@@ -131,7 +131,7 @@ body {
 
 
 .course-details {
-    margin-top: 120px; /* Aumenta o espaçamento para afastar do header */
+    margin-top: 120px; 
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 10px;
@@ -160,7 +160,7 @@ body {
 }
 
 .course-feature .icon {
-    background-color: #1F29AC; /* Cor de fundo do ícone */
+    background-color: #1F29AC; 
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -169,7 +169,7 @@ body {
 }
 
 .course-feature .icon::before {
-    content: "✔"; /* Exemplo de ícone (pode ser substituído por uma imagem) */
+    content: "✔"; 
     color: white;
     font-size: 18px;
     position: absolute;
@@ -186,33 +186,33 @@ body {
 
 
 .course-image {
-    text-align: center; /* Centraliza a imagem */
+    text-align: center; 
     margin-top: 20px;
 }
 
 .course-image img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto;
     width: 100vh;
-    border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+    border-radius: 10px;
 }
 
 .course-button {
-    text-align: center; /* Centraliza o botão */
+    text-align: center; 
     margin-top: 20px;
 }
 
 .course-button .btn {
     display: inline-block;
-    background-color: #1F29AC; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto */
+    background-color: #1F29AC; 
+    color: #fff; 
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
     transition: background-color 0.3s ease;
 }
 
 .course-button .btn:hover {
-    background-color: #2731b3; /* Cor do botão ao passar o mouse */
+    background-color: #2731b3; 
 }
