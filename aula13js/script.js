@@ -17,7 +17,7 @@ function cadastrar() {
     var usuario = document.getElementById('inputUsuarioNovo').value
     var email = document.getElementById('inputEmailNovo').value
     var senha = document.getElementById('inputSenhaNovo').value
-    var senhaConfirma = document.getElementById('inputSenhaCofirme').value
+    var senhaConfirma = document.getElementById('inputSenhaConfirme').value
 
 
     var emailCerto = emailValido(email)
@@ -28,25 +28,18 @@ function cadastrar() {
     if(emailCerto){
         if(senha === senhaConfirma){
             location.href = "index.html"
-            alert("Olá"+ usuario + ", seja bem-vindo!")
+            alert("Olá " + usuario + ", seja bem-vindo!")
 
-            console.log("senhacerta")
-            
         } 
         else{
-            alert('As senhas não coincidem')
-
-            console.log("senhaErrada")
+            alert("As senhas não coincidem")           
             
         }
     }
 
     else {
         alert("Este email não é válido")
-
-
-
-        
+    
     }
 
 
